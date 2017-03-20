@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="skin.quartz_mb286" version="1.0.0" name="Quartz" provider-name="TPX01,mb286">
+	<requires>
+		<import addon="xbmc.gui" version="5.12.0"/>
+	</requires>
+	<extension point="xbmc.gui.skin" debugging="false" effectslowdown="1.0">
+    <res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		 <summary lang="en">Apple TV style skin</summary>
+		<description lang="en">Easy to use, fast and flexible user interface. If you believe that sometimes less means more, you might feel right at home with Quartz. Skin graphics by CloudDweller and Pecinko.</description>
+ 
+		<platform>all</platform>
+		<license>GNU General Public License version 2</license>
+		<forum></forum>
+		<website></website>
+		<email></email>
+		<source></source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+		</assets>
+		<news>Fixes for Krypton by mb286</news>
+	</extension>
+</addon>
